@@ -21,6 +21,7 @@ const config = {
   organizationName: 'KAGA11', // Usually your GitHub org/user name.
   projectName: 'kaga11.github.io', // Usually your repo name.
   deploymentBranch : 'gh-pages',
+  
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
