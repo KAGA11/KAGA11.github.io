@@ -8,14 +8,6 @@ import { SmileOutlined,EditOutlined,ForwardOutlined} from '@ant-design/icons';
 
 
 
-
-
-
-
-
-
-
-
 export default function MyLayout() {
   return (
     <>
