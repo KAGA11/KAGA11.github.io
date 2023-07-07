@@ -1,0 +1,19 @@
+.layout{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding: 20px;
+  color: black;
+}
+
+.layout_outfit {
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+    text-decoration: none;
+}
+  
+.layout_outfit:hover {
+    transform: scale(1.01); 
+    text-decoration: none;
+    color: rgb(41, 139, 17);
+}

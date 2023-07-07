@@ -9,6 +9,12 @@ const config = {
   title: '母港',
   tagline: 'お帰りなさいました',
   favicon: 'img/favicon.ico',
+  customFields: {
+    avatar: 'img/avatar_large',
+    superman: 'lol',
+  },
+  
+
 
   // Set the production url of your site here
   url: 'https://kaga11.github.io/',
@@ -26,7 +32,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
   // Chinese : "zh-Hans"     English: "en"  
   i18n: {
     defaultLocale: 'zh-Hans',
@@ -63,77 +68,48 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/suzume_chair.jpeg',
       navbar: {
-        title: 'My Site',
+        title: '避风港',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/suzume_chair.jpeg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
             position: 'right',
+            label: '文章',
+            to:'/docs/intro',
           },
+          {to: '/blog', label: '生活', position: 'right'},
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Bilibili',
-                href: 'https://www.bilibili.com/',
-              },
-              {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/KAGA11',
-              },
-            ],
-          },
-        ],
+        style: 'light',
+        // links: [
+        //   {
+        //     title: 'More',
+        //     items: [
+        //       {
+        //         label: 'Blog',
+        //         to: '/blog',
+        //       },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/KAGA11',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} 時雨, Inc. Built with <a href = "https://docusaurus.io/" target="_blank"> Docusaurus. </a>`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      
     }),
 };
 

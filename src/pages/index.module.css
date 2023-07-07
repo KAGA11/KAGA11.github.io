@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.avatar{
+  width: 280px;
+  border-radius: 50%;
+}
