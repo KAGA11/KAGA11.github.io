@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaga11.github.io/blog</id>
     <title>母港 Blog</title>
-    <updated>2023-07-07T00:00:00.000Z</updated>
+    <updated>2023-07-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kaga11.github.io/blog"/>
     <subtitle>母港 Blog</subtitle>
     <icon>https://kaga11.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[链表题汇总]]></title>
+        <id>https://kaga11.github.io/blog/链表题汇总</id>
+        <link href="https://kaga11.github.io/blog/链表题汇总"/>
+        <updated>2023-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1.反转链表]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1反转链表">1.反转链表<a href="#1反转链表" class="hash-link" aria-label="1.反转链表的直接链接" title="1.反转链表的直接链接">​</a></h3><ol start="206"><li>反转链表 <a href="https://leetcode.cn/problems/reverse-linked-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/reverse-linked-list</a></li><li>反转链表 II <a href="https://leetcode.cn/problems/reverse-linked-list-ii" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/reverse-linked-list-ii</a></li><li>K 个一组翻转链表 <a href="https://leetcode.cn/problems/reverse-nodes-in-k-group" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/reverse-nodes-in-k-group</a>  </li><li>两两交换链表中的节点 <a href="https://leetcode.cn/problems/swap-nodes-in-pairs" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/swap-nodes-in-pairs</a></li><li>两数相加 II <a href="https://leetcode.cn/problems/add-two-numbers-ii" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/add-two-numbers-ii</a></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="2快慢指针-环形链表">2.快慢指针 环形链表<a href="#2快慢指针-环形链表" class="hash-link" aria-label="2.快慢指针 环形链表的直接链接" title="2.快慢指针 环形链表的直接链接">​</a></h3><ol start="876"><li>链表的中间结点 <a href="https://leetcode.cn/problems/middle-of-the-linked-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/middle-of-the-linked-list</a></li><li>环形链表 <a href="https://leetcode.cn/problems/linked-list-cycle" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/linked-list-cycle</a></li><li>环形链表 II <a href="https://leetcode.cn/problems/linked-list-cycle-ii" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/linked-list-cycle-ii</a></li><li>重排链表 <a href="https://leetcode.cn/problems/reorder-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/reorder-list</a></li><li>回文链表 <a href="https://leetcode.cn/problems/palindrome-linked-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/palindrome-linked-list</a></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="3链表删除">3.链表删除<a href="#3链表删除" class="hash-link" aria-label="3.链表删除的直接链接" title="3.链表删除的直接链接">​</a></h3><ol start="237"><li>删除链表中的节点 <a href="https://leetcode.cn/problems/delete-node-in-a-linked-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/delete-node-in-a-linked-list</a></li><li>删除链表的倒数第 N 个结点 <a href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/remove-nth-node-from-end-of-list</a></li><li>删除排序链表中的重复元素 <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-list" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/remove-duplicates-from-sorted-list</a></li><li>删除排序链表中的重复元素 II <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii</a></li><li>移除链表元素 <a href="https://leetcode.cn/problems/remove-linked-list-elements" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/remove-linked-list-elements</a></li></ol>]]></content>
+        <author>
+            <name>时雨</name>
+            <uri>https://github.com/KAGA11</uri>
+        </author>
+        <category label="算法" term="算法"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
         <id>https://kaga11.github.io/blog/first-blog-post</id>
