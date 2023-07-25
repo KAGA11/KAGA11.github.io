@@ -22,7 +22,7 @@ export default function MyLayout() {
                 <EditOutlined />文章
             </Link>
             <Link to="/docs/intro" className="layout_outfit">
-                <ForwardOutlined />生活
+                <ForwardOutlined />笔记
             </Link>
         </div>
         

@@ -83,7 +83,7 @@ const config = {
             label: '文章',
             to:'/docs/intro',
           },
-          {to: '/blog', label: '生活', position: 'right'},
+          {to: '/blog', label: '笔记', position: 'right'},
         ],
       },
       footer: {
