@@ -1,0 +1,145 @@
+---
+slug: JS
+title: JS
+authors:
+  name: 时雨
+  title: 前端部分面试题代码
+  url: https://github.com/KAGA11
+  image_url: https://github.com/KAGA11.png
+tags: [JS]
+---
+防抖用于确保在一系列事件结束后执行函数，而节流用于限制函数的执行频率，以控制事件触发频率
+
+### 防抖
+
+- 防抖的主要思想是在一系列连续的事件触发后，只执行一次函数。
+- 当事件触发后，定时器会设置一个延迟（例如，300毫秒），如果在延迟内没有再次触发事件，那么函数会执行一次。
+- 如果在延迟期间又触发了相同的事件，定时器会被重新设置，延迟重新计时。
+- 防抖适用于例如输入框输入事件，滚动事件等可能高频触发的情况，以减少不必要的函数执行，避免过多的计算或请求。
+
+```js
+var debounce = function(fn, t) {
+    let timer = null
+    return function(...args) {
+        if(timer){
+            clearTimeout(timer)
+            timer = null
+        }
+        timer = setTimeout(()=>{
+            // fn(...args);
+            fn.apply(this,args)
+        },t)
+    }
+};
+```
+
+
+
+### 节流
+
+- 节流的主要思想是在一系列连续的事件触发中，控制函数的执行频率，例如每隔一段时间执行一次。
+- 定时器会设置一个间隔（例如，300毫秒），如果在间隔内触发多次事件，只有第一次触发会执行函数，其他触发会被忽略。
+- 在间隔结束后，才能再次触发函数执行。
+- 节流适用于例如滚动事件、鼠标移动事件等需要限制执行频率的情况，以避免过多的函数执行。
+
+```js
+var throttle = function(fn, t) {
+    let timer = null
+    return function(...args) {
+        if (timer === null) {
+            timer = setTimeout(()=>{
+                fn(...args)
+                timer = null
+            },t)
+        }
+    }
+};
+```
+
+
+
+### 浅拷贝
+
+如果是数组，我们可以利用数组的一些方法比如：slice、concat 返回一个新数组的特性来实现浅拷贝
+
+```js
+const arr = ['old', 1, true, null, undefined];
+
+const new_arr = arr.concat();
+const new_arr_slice = arr.slice();
+new_arr[0] = 'new';
+
+console.log(arr) // ["old", 1, true, null, undefined]
+console.log(new_arr) // ["new", 1, true, null, undefined]
+console.log(new_arr_slice) // ["old", 1, true, null, undefined]
+```
+
+但是如果数组嵌套了对象或者数组的话，比如：
+
+```js
+const arr = [{old: 'old'}, ['old']];
+const new_arr = arr.slice();
+
+arr[0].old = 'new';
+arr[1][0] = 'new';
+
+console.log(arr) // [{old: 'new'}, ['new']]
+console.log(new_arr) // [{old: 'new'}, ['new']]
+```
+
+如果数组元素是基本类型，就会拷贝一份，互不影响，而如果是对象或者数组，就会只拷贝对象和数组的引用，这样我们无论在新旧数组进行了修改，两者都会发生变化。
+
+这种复制引用的拷贝方法称之为浅拷贝，对应的就是深拷贝，深拷贝就是指完全的拷贝一个对象，即使嵌套了对象，两者也相互分离，修改一个对象的属性，也不会影响另一个。
+
+### 深拷贝
+
+深拷贝数组
+
+stringify 对象或值转换为 JSON 字符串
+
+```js
+const arr = ['old', 1, true, ['old1', 'old2'], {old: 1}]
+const new_arr = JSON.parse(JSON.stringify(arr))
+arr[0] = 'new';
+arr[4][1] = 'new11';
+console.log(arr);   //['new',...]
+console.log(new_arr); //['old',...]
+```
+
+### 浅拷贝的实现
+
+```js
+const shallowCopy = function(obj) {
+    // 只拷贝对象
+    if (typeof obj !== 'object') return;
+    // 根据obj的类型判断是新建一个数组还是对象
+    let newObj = obj instanceof Array ? [] : {};
+    // 遍历obj，并且判断是obj的属性才拷贝
+    for (let key in obj) {
+        if (obj.hasOwnProperty(key)) {
+            newObj[key] = obj[key];
+        }
+    }
+    return newObj;
+}
+```
+
+
+
+### 深拷贝的实现
+
+拷贝的时候判断一下属性值的类型，如果是对象，递归调用深拷贝函数
+
+```js
+const deepCopy = function(obj) {
+    if (typeof obj !== 'object') return;
+    let newObj = obj instanceof Array ? [] : {};
+    for (let key in obj) {
+        if (obj.hasOwnProperty(key)) {
+            newObj[key] = typeof obj[key] === 'object' ? deepCopy(obj[key]) : obj[key];
+        }
+    }
+    return newObj;
+}
+```
+
