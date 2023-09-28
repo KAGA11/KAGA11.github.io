@@ -33,8 +33,6 @@ var debounce = function(fn, t) {
 };
 ```
 
-
-
 ### 节流
 
 - 节流的主要思想是在一系列连续的事件触发中，控制函数的执行频率，例如每隔一段时间执行一次。
@@ -55,8 +53,6 @@ var throttle = function(fn, t) {
     }
 };
 ```
-
-
 
 ### 浅拷贝
 
@@ -140,4 +136,3 @@ const deepCopy = function(obj) {
     return newObj;
 }
 ```
-
