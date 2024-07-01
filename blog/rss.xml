@@ -4,10 +4,22 @@
         <title>母港 Blog</title>
         <link>https://kaga11.github.io/blog</link>
         <description>母港 Blog</description>
-        <lastBuildDate>Thu, 28 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[周报2024-6-24]]></title>
+            <link>https://kaga11.github.io/blog/周报2024-6-24</link>
+            <guid>https://kaga11.github.io/blog/周报2024-6-24</guid>
+            <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[六月的最后一周,也是博客复活的一周.不知道想写啥,随便弄点]]></description>
+            <content:encoded><![CDATA[<p>六月的最后一周,也是博客复活的一周.不知道想写啥,随便弄点</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="学习计划">学习计划<a href="#学习计划" class="hash-link" aria-label="学习计划的直接链接" title="学习计划的直接链接">​</a></h4><p>​		React文档
+​		js红宝书
+​		项目
+重构下博客的UI</p><p>​</p>]]></content:encoded>
+            <category>weekly</category>
+        </item>
         <item>
             <title><![CDATA[面试题代码]]></title>
             <link>https://kaga11.github.io/blog/面试题代码</link>
