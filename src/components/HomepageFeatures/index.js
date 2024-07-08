@@ -9,7 +9,6 @@ const FeatureList = [
     description: (
       <>
         at here <a href='https://github.com/KAGA11'>GitHub</a>
-       
       </>
     ),
   },
