@@ -14,12 +14,15 @@ $ yarn
 $ yarn start
 ```
 
+笔记在Blog 图片文件在static
+
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
 ```
-$ yarn build
+$ npm run build
+$ npm run deploy
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
