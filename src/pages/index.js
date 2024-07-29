@@ -4,12 +4,17 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import logo from "@site/static/img/avatar_large.png";
+// 本地miku
+// import logo from "@site/static/img/avatar_large.png";
 import styles from './index.module.css';
 
 
-function HomepageHeader() {
+function HomepageContent() {
+  // git hub avatar
+  const logo = "https://github.com/KAGA11.png";
+
   const {siteConfig} = useDocusaurusContext();
+  
   return (
     <header className={clsx(styles.heroBanner)}>
     <div className="container">
@@ -18,11 +23,6 @@ function HomepageHeader() {
       <img src={logo} className={styles.avatar}/>
       <h1 style={{marginTop:'20px'}}>时雨</h1>
       <div style={{marginTop:'30px'}} className={styles.buttons}>
-        {/* <Link
-          className="button button--secondary button--lg"
-          to="/blog/mdx-blog-post">
-          自述
-        </Link> */}
 
       </div>
     </div>
@@ -36,9 +36,9 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <HomepageContent />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );
