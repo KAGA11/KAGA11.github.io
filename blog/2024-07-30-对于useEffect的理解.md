@@ -12,9 +12,13 @@ tags: [React]
 
 参考react官方文档中的useEffect教程
 
-Effect 是 React 中的一种脱围机制。它们让你可以 “逃出” React 并使组件和一些外部系统同步，比如非 React 组件、网络请求和浏览器 DOM, 钩子函数`useEffect`是一个Hook，它允许我们在函数组件中处理副作用，如数据获取、订阅和手动操作DOM
+Effect 是 React 中的一种脱围机制。它们让你可以 “脱出” React 并使组件和一些外部系统同步，比如非 React 组件、网络请求和浏览器 DOM.
 
-#### React组件的加载阶段
+钩子函数 `useEffect` 是一个Hook，它允许我们在函数组件中处理副作用，如数据获取、订阅和手动操作DOM
+
+
+
+### React组件的加载阶段
 
 要理解`useEffect`，首先需要了解React组件的加载过程，分为三个主要阶段：
 
@@ -32,11 +36,13 @@ Effect 是 React 中的一种脱围机制。它们让你可以 “逃出” Reac
 
 ​	3.手动操作DOM（如设置事件监听器）
 
-#### `useEffect` 的作用和执行时机
+
+
+### `useEffect` 的作用和执行时机
 
 `useEffect` 在React的“提交”阶段运行。在组件的渲染结果已经被提交到DOM之后，`useEffect` 会被调用。这使得它成为执行副作用的理想时机，比如数据获取、订阅等。
 
-#### 示例：使用 `useEffect` 处理视频播放控制
+##### 示例：使用 `useEffect` 处理视频播放控制
 
 让我们通过一个示例来说明`useEffect`的重要性。假设有一个`VideoPlayer`组件，需要根据`isPlaying`状态控制视频的播放和暂停。
 
@@ -44,7 +50,7 @@ Effect 是 React 中的一种脱围机制。它们让你可以 “逃出” Reac
 
 在以下代码中，`ref.current.play()` 和 `ref.current.pause()` 会在渲染阶段执行，但此时`<video>`元素可能尚未挂载到DOM中，这样做是不对的。
 
-```react
+```javascript
 import { useState, useRef, useEffect } from 'react';
 
 function VideoPlayer({ src, isPlaying }) {
@@ -77,7 +83,7 @@ export default function App() {
 
 ##### 正确示例：使用 `useEffect` 在提交阶段操作DOM
 
-```react
+```javascript
 function VideoPlayer({ src, isPlaying }) {
   const ref = useRef(null);
   useEffect(() => {
@@ -93,9 +99,11 @@ function VideoPlayer({ src, isPlaying }) {
 
 `useEffect` 会把这段代码放到屏幕更新渲染之后执行, 当 `VideoPlayer` 组件渲染时（无论是否为首次渲染），都会发生以下事情。首先，React 会刷新屏幕，确保 `<video>` 元素已经正确地出现在 DOM 中；然后，React 将运行 Effect；最后，Effect 将根据 `isPlaying` 的值调用 `play()` 或 `pause()`
 
+
+
 ### Effect 依赖 
 
-```react
+```javascript
 useEffect(() => {
   // 这里的代码会在每次渲染后执行
 });

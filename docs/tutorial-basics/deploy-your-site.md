@@ -22,6 +22,12 @@ npm run build
 npm run serve
 ```
 
-现在 `build` 文件夹在 http://localhost:3000/ 提供服务。
+在远程部署：
+
+```bash
+npm run deploy
+```
+
+
 
  **[部署指南](https://docusaurus.io/docs/deployment)**
