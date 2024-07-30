@@ -93,7 +93,7 @@ export default function App() {
 
   // 使用 useCallback 保证 handleClick 函数在组件生命周期中不变
   const handleClickCallback = useCallback(() => {
-    setCount((count) => count + 1);
+    setCount((count) => count + 1); // 更新函数
   }, []);
 
   // 创建节流函数，并在 duration 变化时更新

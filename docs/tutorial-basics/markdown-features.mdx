@@ -2,20 +2,20 @@
 sidebar_position: 4
 ---
 
-# Markdown Features
+# Markdown 功能
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Docusaurus 支持 **[Markdown](https://daringfireball.net/projects/markdown/syntax)** 以及一些**额外的功能**。
 
 ## Front Matter
 
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Markdown 文档顶部有一个称为 [Front Matter](https://jekyllrb.com/docs/front-matter/) 的元数据部分：
 
 ```text title="my-doc.md"
 // highlight-start
 ---
 id: my-doc-id
-title: My document title
-description: My document description
+title: 文章title
+description: 文章描述
 slug: /my-custom-url
 ---
 // highlight-end
@@ -25,9 +25,9 @@ slug: /my-custom-url
 Markdown text with [links](./hello.md)
 ```
 
-## Links
+## 链接
 
-Regular Markdown links are supported, using url paths or relative file paths.
+支持常规的 Markdown 链接，可以使用 URL 路径或相对文件路径。
 
 ```md
 Let's see how to [Create a page](/create-a-page).
@@ -37,13 +37,13 @@ Let's see how to [Create a page](/create-a-page).
 Let's see how to [Create a page](./create-a-page.md).
 ```
 
-**Result:** Let's see how to [Create a page](./create-a-page.md).
+**结果:** 跳转到 [创建一个页面](./create-a-page.md).
 
-## Images
+## 图片
 
-Regular Markdown images are supported.
+支持常规的 Markdown 图片。
 
-You can use absolute paths to reference images in the static directory (`static/img/docusaurus.png`):
+可以使用绝对路径来引用静态目录中的图片 (`static/img/docusaurus.png`)：
 
 ```md
 ![Docusaurus logo](/img/docusaurus.png)
@@ -51,15 +51,18 @@ You can use absolute paths to reference images in the static directory (`static/
 
 ![Docusaurus logo](/img/docusaurus.png)
 
-You can reference images relative to the current file as well. This is particularly useful to colocate images close to the Markdown files using them:
+也可以用相对路径引用图片
 
 ```md
-![Docusaurus logo](./img/docusaurus.png)
+我们目前在docs/tutorial-basics 所以要往上层翻两次
+![Docusaurus logo](../../static/img/docusaurus.png)
 ```
 
-## Code Blocks
+![Docusaurus logo](../../static/img/docusaurus.png)
 
-Markdown code blocks are supported with Syntax highlighting.
+## 代码块
+
+支持带有语法高亮的 Markdown 代码块
 
     ```jsx title="src/components/HelloDocusaurus.js"
     function HelloDocusaurus() {
@@ -75,37 +78,33 @@ function HelloDocusaurus() {
 }
 ```
 
-## Admonitions
+## 提示
 
-Docusaurus has a special syntax to create admonitions and callouts:
+Docusaurus 有一种特殊语法来创建提示和警告：
 
     :::tip My tip
-
-    Use this awesome feature option
-
+    
+    good
+    
     :::
-
+    
     :::danger Take care
-
+    
     This action is dangerous
-
+    
     :::
 
-:::tip My tip
-
-Use this awesome feature option
-
+:::tip 小tips
+good 👍
 :::
 
 :::danger Take care
-
-This action is dangerous
-
+危险 ❌
 :::
 
-## MDX and React Components
+## MDX 和 React 组件
 
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
+[MDX](https://mdxjs.com/) 可以使你的文档更加**互动**，并允许在 Markdown 中使用任何 **React 组件**：
 
 ```jsx
 export const Highlight = ({children, color}) => (
@@ -145,6 +144,6 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+绿组件： <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+蓝组件： <Highlight color="#1877F2">Facebook blue</Highlight> !
