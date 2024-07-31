@@ -1,6 +1,6 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * pages下index.js的css 也是首页的css
+ * 
  */
 
 .heroBanner {
@@ -16,13 +16,46 @@
   }
 }
 
-.buttons {
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  animation: fadeIn 0.5s ease-in;
+}
+
+
+@keyframes rotateSequence {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(25deg);
+  }
+  70% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .avatar{
   width: 280px;
   border-radius: 50%;
+  margin-bottom: 30px;
+  transition: transform 2.5s;
+}
+
+.avatar:hover{
+  animation: rotateSequence 2.5s forwards;;
 }

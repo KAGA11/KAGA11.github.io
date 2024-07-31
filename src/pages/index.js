@@ -9,24 +9,24 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 
+
+// 主页组件
+/* 
+  <h1 className="hero__title">{siteConfig.title}</h1>
+  <p className="hero__subtitle">{siteConfig.tagline}</p> 
+*/
 function HomepageContent() {
   // git hub avatar
   const logo = "https://github.com/KAGA11.png";
-
   const {siteConfig} = useDocusaurusContext();
   
   return (
     <header className={clsx(styles.heroBanner)}>
-    <div className="container">
-      {/* <h1 className="hero__title">{siteConfig.title}</h1>
-      <p className="hero__subtitle">{siteConfig.tagline}</p> */}
-      <img src={logo} className={styles.avatar}/>
-      <h1 style={{marginTop:'20px'}}>时雨</h1>
-      <div style={{marginTop:'30px'}} className={styles.buttons}>
-
+      <div className={styles.container}>
+        <img src={logo} className={styles.avatar}/>
+        <h1 >时雨</h1>
       </div>
-    </div>
-  </header>
+    </header>
   );
 }
 
@@ -36,8 +36,8 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageContent />
       <main>
+        <HomepageContent />
         {/* <HomepageFeatures /> */}
       </main>
     </Layout>

@@ -1,5 +1,5 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// 配置文件
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -35,7 +35,7 @@ const config = {
   // Chinese : "zh-Hans"     English: "en"  
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans','en'],
   },
 
   presets: [
@@ -83,7 +83,11 @@ const config = {
             label: '文章',
             to:'/docs/intro',
           },
-          {to: '/blog', label: '笔记', position: 'right'},
+          {
+            to: '/blog', 
+            label: '笔记', 
+            position: 'right'
+          },
         ],
       },
       footer: {

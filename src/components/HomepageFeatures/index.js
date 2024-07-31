@@ -31,8 +31,6 @@ const FeatureList = [
         <div>喜欢 miku</div>
         <div>喜欢东方</div>
         <div>是个 00 后,生于杭州.</div>
-        
-        
       </>
     ),
   },
