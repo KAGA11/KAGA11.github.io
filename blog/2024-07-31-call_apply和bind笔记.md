@@ -1,3 +1,13 @@
+---
+slug: call apply 和 bind笔记
+title: call apply 和 bind笔记
+authors:
+  name: 时雨
+  title: call apply 和 bind笔记
+  url: https://github.com/KAGA11
+  image_url: https://github.com/KAGA11.png
+tags: [JS]
+---
 # call apply 和 bind笔记
 
 ### call 和 apply

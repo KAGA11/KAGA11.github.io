@@ -59,3 +59,15 @@
 .avatar:hover{
   animation: rotateSequence 2.5s forwards;;
 }
+
+.link {
+  color: var(--link-color); 
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: var(--link-hover-color); 
+  text-decoration: none;
+}

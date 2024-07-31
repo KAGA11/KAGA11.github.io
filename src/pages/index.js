@@ -24,7 +24,7 @@ function HomepageContent() {
     <header className={clsx(styles.heroBanner)}>
       <div className={styles.container}>
         <img src={logo} className={styles.avatar}/>
-        <h1 >时雨</h1>
+        <Link href='https://github.com/KAGA11' className={styles.link}>时雨</Link>
       </div>
     </header>
   );
