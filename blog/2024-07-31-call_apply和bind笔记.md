@@ -9,7 +9,7 @@ authors:
 tags: [JS]
 ---
 # call apply 和 bind笔记
-
+call apply bind 就是显式绑定
 ### call 和 apply
 
 call 接受的是参数列表

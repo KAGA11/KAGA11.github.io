@@ -105,7 +105,7 @@ function VideoPlayer({ src, isPlaying }) {
 
 ```javascript
 useEffect(() => {
-  // 这里的代码会在每次渲染后执行
+  // 这里的代码会在每次渲染后执行 不加可能会死循环
 });
 
 useEffect(() => {
