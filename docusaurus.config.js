@@ -107,7 +107,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} 時雨. Built with <a href = "https://docusaurus.io/" target="_blank"> Docusaurus. </a>`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} 時雨. Built with <a href = "https://docusaurus.io/" target="_blank"> Docusaurus. </a>`,
       },
       prism: {
         theme: lightCodeTheme,
