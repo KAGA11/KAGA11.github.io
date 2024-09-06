@@ -1,6 +1,6 @@
 
 # call apply 和 bind笔记
-call apply bind 就是显式绑定
+call apply bind 就是显式绑定, 用于改变函数内部 this 指向的方法
 ### call 和 apply
 
 call 接受的是参数列表
@@ -68,6 +68,39 @@ boundGreet('Melina');
 `call` 和 `apply` 会立即调用函数。
 
 `bind` 返回一个新函数，需要手动调用这个新函数才会执行。
+
+
+
+#### 手写call, apply, bind
+
+```javascript
+Function.prototype.myCall = function(thisArg,...args){ 
+    let key = Symbol('key')
+    thisArg[key] = this
+
+    const res = thisArg[key](...args)
+    delete thisArg[key]
+    return res
+}
+
+Function.prototype.myApply = function(thisArg,args){//传入的是一个数组
+    let key = Symbol('key')
+    thisArg[key] = this
+
+    const res = thisArg[key](...args)
+    delete thisArg[key]
+    return res
+}
+
+Function.prototype.myBind = function(thisArg,...args){
+    let self = this
+    return function(...newArgs){
+        return self.myApply(thisArg,[...args,...newArgs])
+    }
+}
+```
+
+
 
 
 
