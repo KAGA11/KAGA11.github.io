@@ -71,7 +71,7 @@ boundGreet('Melina');
 
 
 
-#### 手写call, apply, bind
+### 手写call, apply, bind
 
 ```javascript
 Function.prototype.myCall = function(thisArg,...args){ 
