@@ -1,0 +1,8 @@
+{
+  "label": "性能优化",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "不同层面的前端性能优化"
+  }
+}
