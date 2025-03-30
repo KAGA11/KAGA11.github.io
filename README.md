@@ -2,21 +2,14 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
-
-```
-$ yarn
-```
 
 ### Local Development
 
 ```
-$ yarn start
+$ npm start
 ```
 
 笔记在Blog 图片文件在static
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 

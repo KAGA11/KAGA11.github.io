@@ -52,6 +52,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 15,
+          blogSidebarCount: 15,  // 这会显示最近15篇文章
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
