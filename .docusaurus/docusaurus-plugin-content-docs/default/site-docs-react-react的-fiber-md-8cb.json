@@ -1,0 +1,24 @@
+{
+  "id": "React/React的Fiber",
+  "title": "React的Fiber",
+  "description": "Fiber 是 React 的协调算法,使得 React 能够更好地管理复杂应用中的渲染性能问题",
+  "source": "@site/docs/React/React的Fiber.md",
+  "sourceDirName": "React",
+  "slug": "/React/React的Fiber",
+  "permalink": "/en/docs/React/React的Fiber",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/React/React的Fiber.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "对于useEffect的理解",
+    "permalink": "/en/docs/React/对于useEffect的理解"
+  },
+  "next": {
+    "title": "网络",
+    "permalink": "/en/docs/category/网络"
+  }
+}

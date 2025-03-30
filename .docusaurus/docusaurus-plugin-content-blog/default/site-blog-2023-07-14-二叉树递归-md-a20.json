@@ -1,0 +1,52 @@
+{
+  "permalink": "/en/blog/二叉树 递归",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-07-14-二叉树递归.md",
+  "source": "@site/blog/2023-07-14-二叉树递归.md",
+  "title": "二叉树 递归",
+  "description": "104.二叉树的最大深度",
+  "date": "2023-07-14T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "算法",
+      "permalink": "/en/blog/tags/算法"
+    }
+  ],
+  "readingTime": 0.285,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "二叉树 递归",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "二叉树 递归",
+    "title": "二叉树 递归",
+    "authors": {
+      "name": "时雨",
+      "title": "二叉树 递归",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "算法"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Promise",
+    "permalink": "/en/blog/Promise"
+  },
+  "nextItem": {
+    "title": "链表题汇总",
+    "permalink": "/en/blog/链表题汇总"
+  }
+}

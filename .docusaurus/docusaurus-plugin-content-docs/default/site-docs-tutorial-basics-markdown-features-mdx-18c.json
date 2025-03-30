@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/markdown-features",
+  "title": "Markdown 功能",
+  "description": "Docusaurus 支持 Markdown 以及一些额外的功能。",
+  "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/markdown-features",
+  "permalink": "/en/docs/tutorial-basics/markdown-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "创建笔记",
+    "permalink": "/en/docs/tutorial-basics/create-a-blog-post"
+  },
+  "next": {
+    "title": "Build 和 Deploy",
+    "permalink": "/en/docs/tutorial-basics/deploy-your-site"
+  }
+}

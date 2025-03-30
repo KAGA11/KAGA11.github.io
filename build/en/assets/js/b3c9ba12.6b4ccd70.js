@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2408],{6882:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"CSS","description":"CSS\u67e5\u6f0f\u8865\u7f3a","slug":"/category/css","permalink":"/en/docs/category/css","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Flex","permalink":"/en/docs/CSS/Flex"}}}}')}}]);

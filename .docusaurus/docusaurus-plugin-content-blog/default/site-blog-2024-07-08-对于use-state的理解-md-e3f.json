@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/对于useState的理解",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-07-08-对于useState的理解.md",
+  "source": "@site/blog/2024-07-08-对于useState的理解.md",
+  "title": "对于useState的理解",
+  "description": "对于useState的理解  参考React hooks: not magic, just arrays",
+  "date": "2024-07-08T00:00:00.000Z",
+  "formattedDate": "2024年7月8日",
+  "tags": [
+    {
+      "label": "React",
+      "permalink": "/blog/tags/react"
+    }
+  ],
+  "readingTime": 3.62,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "对于useState的理解",
+    "title": "对于useState的理解",
+    "authors": {
+      "name": "时雨",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "React"
+    ]
+  },
+  "prevItem": {
+    "title": "git撤回操作指南",
+    "permalink": "/blog/git撤回操作指南"
+  },
+  "nextItem": {
+    "title": "周报2024-6-24",
+    "permalink": "/blog/周报2024-6-24"
+  }
+}

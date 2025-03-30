@@ -1,0 +1,46 @@
+{
+  "permalink": "/en/blog/代码块写法",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-07-07-代码块写法.mdx",
+  "source": "@site/blog/2023-07-07-代码块写法.mdx",
+  "title": "代码块写法",
+  "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+  "date": "2023-07-07T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "博客格式",
+      "permalink": "/en/blog/tags/博客格式"
+    }
+  ],
+  "readingTime": 0.175,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "First Post",
+      "url": "https://github.com/KAGA11",
+      "imageURL": "https://github.com/KAGA11.png",
+      "key": "shigure",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "代码块写法",
+    "title": "代码块写法",
+    "authors": [
+      "shigure"
+    ],
+    "tags": [
+      "博客格式"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "First Blog Post",
+    "permalink": "/en/blog/first-blog-post"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/en/blog/welcome"
+  }
+}

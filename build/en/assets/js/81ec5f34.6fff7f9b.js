@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7882],{6341:e=>{e.exports=JSON.parse('{"authors":[{"name":"\u65f6\u96e8","title":"First Post","url":"https://github.com/KAGA11","imageURL":"https://github.com/KAGA11.png","key":"shigure","page":null,"count":2}]}')}}]);

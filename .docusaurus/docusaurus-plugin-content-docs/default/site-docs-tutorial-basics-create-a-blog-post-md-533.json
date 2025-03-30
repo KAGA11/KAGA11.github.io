@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/create-a-blog-post",
+  "title": "创建笔记",
+  "description": "Docusaurus 为每篇笔记创建一个页面，同时也会创建一个博客索引页面、一个标签系统、一个 RSS 源...",
+  "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/create-a-blog-post",
+  "permalink": "/en/docs/tutorial-basics/create-a-blog-post",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "创建文章",
+    "permalink": "/en/docs/tutorial-basics/create-a-document"
+  },
+  "next": {
+    "title": "Markdown 功能",
+    "permalink": "/en/docs/tutorial-basics/markdown-features"
+  }
+}

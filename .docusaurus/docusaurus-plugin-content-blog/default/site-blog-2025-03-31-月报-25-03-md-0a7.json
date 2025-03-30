@@ -1,0 +1,52 @@
+{
+  "permalink": "/en/blog/月报 - [25-03]",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-31-月报 - [25-03].md",
+  "source": "@site/blog/2025-03-31-月报 - [25-03].md",
+  "title": "月报-25/03",
+  "description": "月报 - [25-03]",
+  "date": "2025-03-31T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "other",
+      "permalink": "/en/blog/tags/other"
+    }
+  ],
+  "readingTime": 0.55,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "月报 - 25-03",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "月报 - [25-03]",
+    "title": "月报-25/03",
+    "authors": {
+      "name": "时雨",
+      "title": "月报 - 25-03",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "other"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "《控糖革命》读后感",
+    "permalink": "/en/blog/《控糖革命》读后感"
+  },
+  "nextItem": {
+    "title": "新Mac安装指南",
+    "permalink": "/en/blog/新Mac安装指南"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "React/markdown-features",
+  "id": "React/markdown-features",
+  "title": "Markdown 功能",
+  "description": "Docusaurus 支持 Markdown 以及一些额外的功能。",
+  "source": "@site/docs/React/markdown-features.mdx",
+  "sourceDirName": "React",
+  "slug": "/React/markdown-features",
+  "permalink": "/docs/React/markdown-features",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/React/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React",
+    "permalink": "/docs/category/react"
+  },
+  "next": {
+    "title": "对于useState的理解",
+    "permalink": "/docs/React/对于useState的理解"
+  }
+}

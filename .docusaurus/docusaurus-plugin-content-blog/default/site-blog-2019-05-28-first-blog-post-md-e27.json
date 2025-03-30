@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/first-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+  "source": "@site/blog/2019-05-28-first-blog-post.md",
+  "title": "First Blog Post",
+  "description": "第一篇博客",
+  "date": "2019-05-28T00:00:00.000Z",
+  "formattedDate": "2019年5月28日",
+  "tags": [
+    {
+      "label": "随笔",
+      "permalink": "/blog/tags/随笔"
+    }
+  ],
+  "readingTime": 0.065,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "First Post",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "first-blog-post",
+    "title": "First Blog Post",
+    "authors": {
+      "name": "时雨",
+      "title": "First Post",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "随笔"
+    ]
+  },
+  "prevItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
+  }
+}

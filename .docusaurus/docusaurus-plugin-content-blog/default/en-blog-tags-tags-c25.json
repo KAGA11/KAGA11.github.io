@@ -1,0 +1,37 @@
+[
+  {
+    "label": "other",
+    "permalink": "/en/blog/tags/other",
+    "count": 2
+  },
+  {
+    "label": "git",
+    "permalink": "/en/blog/tags/git",
+    "count": 1
+  },
+  {
+    "label": "weekly",
+    "permalink": "/en/blog/tags/weekly",
+    "count": 1
+  },
+  {
+    "label": "JS",
+    "permalink": "/en/blog/tags/js",
+    "count": 2
+  },
+  {
+    "label": "算法",
+    "permalink": "/en/blog/tags/算法",
+    "count": 2
+  },
+  {
+    "label": "随笔",
+    "permalink": "/en/blog/tags/随笔",
+    "count": 1
+  },
+  {
+    "label": "博客格式",
+    "permalink": "/en/blog/tags/博客格式",
+    "count": 2
+  }
+]

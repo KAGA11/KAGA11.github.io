@@ -1,0 +1,52 @@
+{
+  "permalink": "/en/blog/面试笔记",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-02-16-面试.md",
+  "source": "@site/blog/2025-02-16-面试.md",
+  "title": "面试笔记",
+  "description": "解释下HTML5语义化标签的含义和用法",
+  "date": "2025-02-16T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "other",
+      "permalink": "/en/blog/tags/other"
+    }
+  ],
+  "readingTime": 107.755,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "面试笔记",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "面试笔记",
+    "title": "面试笔记",
+    "authors": {
+      "name": "时雨",
+      "title": "面试笔记",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "other"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "新Mac安装指南",
+    "permalink": "/en/blog/新Mac安装指南"
+  },
+  "nextItem": {
+    "title": "git撤回操作指南",
+    "permalink": "/en/blog/git撤回操作指南"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "网络/HTTP响应状态码",
+  "title": "HTTP响应状态码",
+  "description": "1xx：信息性状态码",
+  "source": "@site/docs/网络/HTTP响应状态码.md",
+  "sourceDirName": "网络",
+  "slug": "/网络/HTTP响应状态码",
+  "permalink": "/en/docs/网络/HTTP响应状态码",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/网络/HTTP响应状态码.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTTP请求方法",
+    "permalink": "/en/docs/网络/HTTP请求方法"
+  },
+  "next": {
+    "title": "HTTP版本",
+    "permalink": "/en/docs/网络/HTTP版本"
+  }
+}

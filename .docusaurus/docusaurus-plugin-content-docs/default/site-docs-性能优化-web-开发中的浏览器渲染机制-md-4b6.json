@@ -1,0 +1,27 @@
+{
+  "id": "性能优化/Web 开发中的浏览器渲染机制",
+  "title": "Web 开发中的浏览器渲染机制",
+  "description": "本文主要聚焦浏览器渲染机制",
+  "source": "@site/docs/性能优化/Web 开发中的浏览器渲染机制.md",
+  "sourceDirName": "性能优化",
+  "slug": "/性能优化/Web 开发中的浏览器渲染机制",
+  "permalink": "/en/docs/性能优化/Web 开发中的浏览器渲染机制",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/性能优化/Web 开发中的浏览器渲染机制.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web 开发中的网络调试和优化",
+    "permalink": "/en/docs/性能优化/Web 开发中的网络调试和优化"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/en/docs/category/tutorial---basics"
+  }
+}

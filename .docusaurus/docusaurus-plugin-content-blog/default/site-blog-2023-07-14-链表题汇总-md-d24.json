@@ -1,0 +1,52 @@
+{
+  "permalink": "/en/blog/链表题汇总",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-07-14-链表题汇总.md",
+  "source": "@site/blog/2023-07-14-链表题汇总.md",
+  "title": "链表题汇总",
+  "description": "1.反转链表",
+  "date": "2023-07-14T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "算法",
+      "permalink": "/en/blog/tags/算法"
+    }
+  ],
+  "readingTime": 0.77,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "链表题汇总",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "链表题汇总",
+    "title": "链表题汇总",
+    "authors": {
+      "name": "时雨",
+      "title": "链表题汇总",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "算法"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "二叉树 递归",
+    "permalink": "/en/blog/二叉树 递归"
+  },
+  "nextItem": {
+    "title": "First Blog Post",
+    "permalink": "/en/blog/first-blog-post"
+  }
+}

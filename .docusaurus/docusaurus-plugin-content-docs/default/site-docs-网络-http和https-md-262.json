@@ -1,0 +1,27 @@
+{
+  "id": "网络/HTTP和HTTPS",
+  "title": "HTTP和HTTPS",
+  "description": "HTTP：不加密，数据以明文形式传输，不需要 SSL/TLS 证书，默认端口 80。实现更简单，速度稍快。目前，随着安全需求的提升，HTTP 协议逐渐被 HTTPS 替代。",
+  "source": "@site/docs/网络/HTTP和HTTPS.md",
+  "sourceDirName": "网络",
+  "slug": "/网络/HTTP和HTTPS",
+  "permalink": "/en/docs/网络/HTTP和HTTPS",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/网络/HTTP和HTTPS.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTTP版本",
+    "permalink": "/en/docs/网络/HTTP版本"
+  },
+  "next": {
+    "title": "跨域",
+    "permalink": "/en/docs/网络/跨域"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "性能优化/Web 开发中的图片优化",
+  "title": "Web 开发中的图片优化",
+  "description": "本文主要聚焦图片的优化",
+  "source": "@site/docs/性能优化/Web 开发中的图片优化.md",
+  "sourceDirName": "性能优化",
+  "slug": "/性能优化/Web 开发中的图片优化",
+  "permalink": "/en/docs/性能优化/Web 开发中的图片优化",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/性能优化/Web 开发中的图片优化.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "性能优化",
+    "permalink": "/en/docs/category/性能优化"
+  },
+  "next": {
+    "title": "Web 开发中的网络调试和优化",
+    "permalink": "/en/docs/性能优化/Web 开发中的网络调试和优化"
+  }
+}

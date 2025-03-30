@@ -1,0 +1,42 @@
+{
+  "permalink": "/en/blog/welcome",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+  "source": "@site/blog/2021-08-26-welcome/index.md",
+  "title": "Welcome",
+  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "date": "2021-08-26T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "博客格式",
+      "permalink": "/en/blog/tags/博客格式"
+    }
+  ],
+  "readingTime": 0.405,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "First Post",
+      "url": "https://github.com/KAGA11",
+      "imageURL": "https://github.com/KAGA11.png",
+      "key": "shigure",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "shigure"
+    ],
+    "tags": [
+      "博客格式"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "代码块写法",
+    "permalink": "/en/blog/代码块写法"
+  }
+}

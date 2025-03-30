@@ -1,0 +1,24 @@
+{
+  "id": "网络/跨域",
+  "title": "跨域",
+  "description": "1. 什么是跨域？",
+  "source": "@site/docs/网络/跨域.md",
+  "sourceDirName": "网络",
+  "slug": "/网络/跨域",
+  "permalink": "/en/docs/网络/跨域",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/网络/跨域.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTTP和HTTPS",
+    "permalink": "/en/docs/网络/HTTP和HTTPS"
+  },
+  "next": {
+    "title": "性能优化",
+    "permalink": "/en/docs/category/性能优化"
+  }
+}

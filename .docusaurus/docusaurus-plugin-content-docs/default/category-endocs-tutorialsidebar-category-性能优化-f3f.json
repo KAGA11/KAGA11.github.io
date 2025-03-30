@@ -1,0 +1,16 @@
+{
+  "title": "性能优化",
+  "description": "不同层面的前端性能优化",
+  "slug": "/category/性能优化",
+  "permalink": "/en/docs/category/性能优化",
+  "navigation": {
+    "previous": {
+      "title": "跨域",
+      "permalink": "/en/docs/网络/跨域"
+    },
+    "next": {
+      "title": "Web 开发中的图片优化",
+      "permalink": "/en/docs/性能优化/Web 开发中的图片优化"
+    }
+  }
+}

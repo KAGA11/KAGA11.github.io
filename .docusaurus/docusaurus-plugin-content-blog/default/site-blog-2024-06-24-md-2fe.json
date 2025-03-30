@@ -1,0 +1,52 @@
+{
+  "permalink": "/en/blog/周报2024-6-24",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-06-24.md",
+  "source": "@site/blog/2024-06-24.md",
+  "title": "周报2024-6-24",
+  "description": "六月的最后一周,也是博客复活的一周.不知道想写啥,随便弄点",
+  "date": "2024-06-24T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "weekly",
+      "permalink": "/en/blog/tags/weekly"
+    }
+  ],
+  "readingTime": 0.25,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "时雨",
+      "title": "面试代码",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "周报2024-6-24",
+    "title": "周报2024-6-24",
+    "authors": {
+      "name": "时雨",
+      "title": "面试代码",
+      "url": "https://github.com/KAGA11",
+      "image_url": "https://github.com/KAGA11.png",
+      "imageURL": "https://github.com/KAGA11.png"
+    },
+    "tags": [
+      "weekly"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "git撤回操作指南",
+    "permalink": "/en/blog/git撤回操作指南"
+  },
+  "nextItem": {
+    "title": "面试题代码",
+    "permalink": "/en/blog/面试题代码"
+  }
+}

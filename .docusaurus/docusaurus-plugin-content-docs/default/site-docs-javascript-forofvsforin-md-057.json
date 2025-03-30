@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Javascript/forofvsforin",
+  "id": "Javascript/forofvsforin",
+  "title": "forofvsforin",
+  "description": "for ... of vs for ... in",
+  "source": "@site/docs/Javascript/forofvsforin.md",
+  "sourceDirName": "Javascript",
+  "slug": "/Javascript/forofvsforin",
+  "permalink": "/docs/Javascript/forofvsforin",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Javascript/forofvsforin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "call apply 和 bind笔记",
+    "permalink": "/docs/Javascript/2024-07-31-call_apply和bind笔记"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}
