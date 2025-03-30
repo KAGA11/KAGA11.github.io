@@ -2,11 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kaga11.github.io/en/blog</id>
     <title>母港 Blog</title>
-    <updated>2025-03-30T00:00:00.000Z</updated>
+    <updated>2025-03-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kaga11.github.io/en/blog"/>
     <subtitle>母港 Blog</subtitle>
     <icon>https://kaga11.github.io/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[月报-25/03]]></title>
+        <id>https://kaga11.github.io/en/blog/月报 - [25-03]</id>
+        <link href="https://kaga11.github.io/en/blog/月报 - [25-03]"/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[月报 - [25-03]]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="月报---25-03"><strong>月报 - [25-03]</strong><a href="https://kaga11.github.io/en/blog/%E6%9C%88%E6%8A%A5%20-%20[25-03]#%E6%9C%88%E6%8A%A5---25-03" class="hash-link" aria-label="Direct link to 月报---25-03" title="Direct link to 月报---25-03">​</a></h2>
+<ul>
+<li>
+<p><strong>成果与收获</strong></p>
+<ul>
+<li>对于webpack, rspack等构件工具有更深刻的认识</li>
+</ul>
+</li>
+<li>
+<p><strong>感悟</strong></p>
+<ul>
+<li>找对象是找与自己相近的人, 而不是相互补充</li>
+<li>自己的技术水平很平庸, 保持虚心</li>
+</ul>
+</li>
+<li>
+<p><strong>书籍/文章</strong></p>
+<ul>
+<li>Made in China 2025 and the future of American Industry - Marco Rubio</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="下月计划"><strong>下月计划</strong><a href="https://kaga11.github.io/en/blog/%E6%9C%88%E6%8A%A5%20-%20[25-03]#%E4%B8%8B%E6%9C%88%E8%AE%A1%E5%88%92" class="hash-link" aria-label="Direct link to 下月计划" title="Direct link to 下月计划">​</a></h4>
+<ul>
+<li><strong>更多产出</strong></li>
+<li><strong>阅读计划</strong>  (写读后感)<!-- -->
+<ul>
+<li>国富论</li>
+<li>西奥多罗斯福自传</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>时雨</name>
+            <uri>https://github.com/KAGA11</uri>
+        </author>
+        <category label="other" term="other"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[新Mac安装指南]]></title>
         <id>https://kaga11.github.io/en/blog/新Mac安装指南</id>
