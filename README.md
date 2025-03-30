@@ -1,7 +1,8 @@
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
+Docusaurus 本身不需要手动 git push，它的 npm run deploy 会自动帮你推送到 GitHub。
+但是，需要先 git add 和 git commit，否则 Docusaurus 不会部署最新的更改
 
 ### Local Development
 
