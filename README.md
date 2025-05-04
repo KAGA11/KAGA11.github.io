@@ -12,9 +12,10 @@ $ npm start
 
 笔记在Blog 图片文件在static
 
-### Build
+### Deploy顺序
 
 ```
+$ git add & git commit
 $ npm run build
 $ npm run deploy
 ```
