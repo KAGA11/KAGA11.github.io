@@ -17,7 +17,7 @@ $ npm start
 ```
 $ git add & git commit
 $ npm run build
-$ USE_SSH=true yarn deploy
+$ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
